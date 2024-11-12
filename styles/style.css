@@ -61,7 +61,8 @@ section h2 {
     padding: .5em 0 .25em 0;
 }
 section p {
-    padding-bottom: .5em;
+    padding: .5em 0;
+    font-size: 16px;
 }
 
 section blockquote {
@@ -75,7 +76,13 @@ section li {
     padding-bottom: .35em;
 }
 
-/* the styles for the article */
+section img{
+    float: right;
+    margin: 20px 30px 40px 30px;
+    border: 1px solid black;
+
+}
+
 article {
     padding: .5em 0;
     border-top: 2px solid #800000;
